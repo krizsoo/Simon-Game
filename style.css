@@ -1,0 +1,154 @@
+.colours-wrapper {
+  width: 100%;
+}
+.colours {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.box {
+  width:  200px;
+  height: 200px;
+  opacity: 1;
+  border: 12px #333333 solid;
+}
+
+.green {
+  background-color: #00A74A;
+  border-radius: 200px 0 0 0 ;
+  float: left;
+  border-left: 24px #333333 solid;
+  border-top: 24px #333333 solid;
+}
+.red {
+  background-color: #9F0F17;
+  border-radius: 0 200px 0 0 ;
+  float: left;
+  border-right: 24px #333333 solid;
+  border-top: 24px #333333 solid;
+}
+.blue {
+  background-color: #094A8F;
+  border-radius: 0 0 0 200px ;
+  float: left;
+  border-left: 24px #333333 solid;
+  border-bottom: 24px #333333 solid;
+}
+.yellow {
+  background-color: #CCA707;
+  border-radius: 0 0 200px 0 ;
+  float: left;
+  border-right: 24px #333333 solid;
+  border-bottom: 24px #333333 solid;
+}
+.controls {
+  width: 100%;
+  float: left;
+  
+}
+.controls-wrapper {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #ECE7EE;
+  border-radius: 100%;
+  border: 12px #333333 solid;
+  top: -300px;
+  position: relative;
+  padding: 10px;
+  padding-top: 30px;
+}
+.start {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 65px;
+  top: -52px;
+  background-color: red;
+  border: 2px #333333 solid;
+  border-radius: 100%;
+  box-shadow: 3px 3px 5px grey;
+}
+.start:active {
+  box-shadow: 0 0 0;
+}
+.start-text {
+  position: relative;
+  left: 65px;
+  top: -47px;
+  font-size: 0.8em;
+}
+.simon {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.counter {
+  width: 50px;
+  height: 35px;
+  position: relative;
+  top: 3px;
+  padding-top: 5px;
+  background-color: #32050C;
+  border: 2px #333333 solid;
+  border-radius: 5px;
+  color: red;
+  text-align: center;
+}
+.counter-text {
+  position: relative;
+  top: 10px; 
+  font-size: 0.8em;
+}
+.strict-mode-checkbox {
+  display: none;
+}
+.strict-mode-label {
+  position: relative;
+  left: 115px;
+  top: -117px;
+}
+.strict-mode-switch {
+  width: 25px;
+  height: 25px;
+  background-color: #FFFF00;
+  border: 2px #333333 solid;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px grey;
+}
+.strict-mode-switch:active {
+box-shadow: 0 0 0;
+}
+.strict-mode-text {
+  text-align: center;
+  position: relative;
+  top: 6px;
+  left: -7px;
+  font-size: 0.8em;
+}
+.strict-mode-light {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border: 1px #333333 solid;
+  left: 8.5px;
+  position: relative;
+  margin-bottom: 5px;
+  
+}
+.strict-mode-checkbox:checked + .strict-mode-label .strict-mode-light {
+  background-color: red;
+}
+.clear {
+  position: relative;
+  top: -120px;
+  left: 35px;
+  background-color: #00A74A;
+  border: 3px #333333 solid;
+  border-radius: 10px; 
+  box-shadow: 3px 3px 5px grey;
+}
+.clear:active {
+  box-shadow: 0 0 0;
+}
